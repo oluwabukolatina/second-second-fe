@@ -1,0 +1,122 @@
+.famelab{
+    width: 94%;
+    margin: auto !important;
+    .start{
+        margin-right: auto;
+        p{
+            font-weight: 700;
+        }
+        input{
+            box-shadow: 0px 12px 12px #dbdfe1;
+        }
+        span{
+            position: absolute;
+            margin-top: -7%;
+            margin-left: 90%;
+            color: #b1b5b9;
+        }
+        .box{
+            background-color: white;
+            border: 1px solid #acaeb15e;
+            margin-top: 8%;
+            margin-bottom: 8%;
+            // padding: 4%;
+            border-radius: 2px;
+            pre{
+                display: block;
+                font-size: 81%;
+                color: #afafb5;
+                // margin-bottom: 0;
+            }
+            .logo{
+                border-right: 1px solid #acaeb15e;
+                img{
+                    width: 100%;
+                    padding-top: 45%;
+                }
+                .fl_logo{
+                    filter: grayscale(100%);
+                }
+            }
+            .logo_details{
+                padding: 20px;
+                h6{
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    .cs{
+        box-shadow: 0px 12px 12px #dbdfe1;
+        .logo{
+            text-align: center;
+            img{
+                padding: 10px 0 0 0 !important;
+            }
+        }
+    }
+    &_support{
+        h6{
+            font-weight: 700;
+        }
+        p{
+            font-size: 12px;
+        }
+        input[type=checkbox]{
+            width: fit-content;
+        }
+        .supporter_boxes{
+            .support_box_content{
+                .boxes{
+                    background: white;
+                    width: 32%;
+                    margin-top: 4%;
+                    margin-bottom: 0%;
+                    .nav_part{
+                        border-bottom: 1px solid #acaeb15e;
+                        padding: 7px 7px 0px;
+                    }
+                    .img_section{
+                        padding: 10% 10% 0;
+                        img{
+                            width: 70px;
+                            height: 70px;
+                            border-radius: 50%;
+                        }
+                        .pple_name{
+                            font-weight: 700;
+                        }
+                        .position{
+                            color: #afafb5;
+                        }
+                    }
+                    .no_of_likes{
+                        border-top: 1px solid #acaeb15e;
+                        text-align: center;
+                        padding: 10% 10% 0;
+                        h5{
+                            font-weight: 600;
+                            color:#277894;
+                        }
+                        p{
+                            font-size: 15px;
+                            font-weight: 400;
+                            color: #c2c2c4;
+                        }
+                    }
+                }
+            }
+        }
+      
+    }
+}
+
+.spans{
+    display: flex;
+    margin-left: auto;
+    p{
+        margin-bottom: 0;
+        font-weight: normal;
+        color: #d4d4d6;
+    }
+}
